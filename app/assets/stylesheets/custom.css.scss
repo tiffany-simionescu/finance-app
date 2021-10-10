@@ -1,7 +1,12 @@
 @import 'bootstrap/dist/css/bootstrap';
 
+.alert {
+  display: flex !important;
+  justify-content: space-between !important;
+}
+
 .search-area {
-  padding-top: 30px;
+  padding-top: 50px;
 }
 
 .no-right-padding {
@@ -10,4 +15,23 @@
 
 .no-left-padding {
   padding-left: 0 !important;
+}
+
+.results-block {
+  margin-top: 30px;
+  display: inline-block;
+}
+
+.logout-button {
+  margin-right: 5px;
+}
+
+.user-name {
+  margin-top: 3.5%;
+  padding-right: 5px;
+}
+
+.disabled {
+  cursor: not-allowed !important;
+  pointer-events: none !important;
 }
